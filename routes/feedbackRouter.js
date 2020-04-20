@@ -32,13 +32,13 @@ feedbackRouter.route('/')
                port: 465,
                secure: true,
                auth: {
-                   user: 'adham.prince1@gmail.com',
-                   pass: '**********'
+                   user: 'nayagul.comp@gmail.com',
+                   pass: 'naya1011'
                }
            });
            let mailOptions = {
                from: Feedback.email, // sender address
-               to: 'hamzahajyousef@gmail.com, adham.prince1@gmail.com', // list of receivers
+               to: 'nayagul.comp@gmail.com', // list of receivers
                subject: Feedback.email , // Subject line
                text: "Merhaba ben " + Feedback.firstname + " " + Feedback.lastname, // plain text body
                html: "Merhaba ben " + Feedback.firstname + " " + Feedback.lastname + '<br>' + '<b>'+ Feedback.message +'</b>' + '<br>' + " Beni ulaş " + Feedback.email + '<br>' + Feedback.telnum // html body

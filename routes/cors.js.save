@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-const whitelist = ['https://localhost:3443','http://localhost:4200','https://server.nayagul.com', 'https://nayagul-control-panel.firebaseapp.com', 'https://www.nayagul.com'];
+const whitelist = ['http://localhost:3000', ', 'http://localhost:4200', 'https://www.nayagul.com'];
 var corsOptionsDelegate = (req, callback) => {
     var corsOptions;
 
